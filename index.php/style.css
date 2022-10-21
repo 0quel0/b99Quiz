@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Mono & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(img/b99background.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background:rgba(255, 255, 255, 0.548);
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 45px;
+    font-family: 'Roboto Mono', monospace;
+    box-shadow: 0 0 10px 5px rgb(34, 34, 34);
+}
+
+.box h1{
+    color: #000; 
+}
+
+.box p{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.box button{
+   background-color: #ee0000;
+   border: none;
+   border-radius: 10px;
+   padding: 15px 32px;
+   text-align: center;
+   font-size: 16px;
+   margin-top: 5%;
+}
+
+.box button a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+@media(max-width: 850px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background: url(img/midea\ background.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
